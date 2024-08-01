@@ -8,6 +8,7 @@ import Filter_fruits from './components/Filter_fruits';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Form from './components/Form';
+import MultiInputForm from './components/MultiInputForm';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Form/>
+      <MultiInputForm/>
     </div>
   )
 }

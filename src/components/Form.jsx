@@ -6,7 +6,7 @@ export default function Form() {
 
   function setObjName(event) {
     event.preventDefault();
-    setObj({ name });
+    setObj({ name : name });
   }
 
   function handleChange(e) {
